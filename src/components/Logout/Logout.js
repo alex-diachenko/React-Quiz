@@ -13,10 +13,10 @@ class Logout extends Component {
   }
 }
 
-function mapDispatchProps(dispatch) {
+function mapDispatchToProps(dispatch) {
   return {
     logout: () => dispatch(logout())
   }
 }
 
-export default connect(null, mapDispatchProps)(Logout)
+export default connect(null, mapDispatchToProps)(Logout)

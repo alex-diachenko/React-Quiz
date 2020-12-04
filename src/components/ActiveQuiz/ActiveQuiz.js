@@ -9,6 +9,7 @@ const ActiveQuiz = props => (
         <strong>{ props.answerNumber }. </strong>
         {props.question}
       </span>
+      <h1>test text</h1>
 
       <small>{ props.answerNumber } из { props.quizLength }</small>
     </p>
